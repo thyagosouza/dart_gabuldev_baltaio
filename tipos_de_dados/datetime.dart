@@ -17,4 +17,15 @@ void main() {
   final tirar = dateNow.subtract(const Duration(hours: 12));
   print(later);
   print(tirar);
+
+  final dateA = DateTime.now();
+  final dateB = dateA.add(const Duration(hours: 36));
+  print(dateA.isAfter(dateB));
+  print(dateA.isBefore(dateB));
+  print(dateA.isAtSameMomentAs(dateA));
+
+  final dateC = DateTime.now();
+  final dateD = dateC.add(const Duration(hours: 36));
+  final difference = dateC.difference(dateD);
+  print(difference.inMinutes);
 }

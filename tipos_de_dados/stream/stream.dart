@@ -1,7 +1,7 @@
 //https://balta.io/player/assistir/3b44efca-3875-4fc2-8d98-9e995dbf396f/0423ae13-8140-4cb3-a3dd-c1099db16e95
 
 void main() async {
-  //? STREAMS SÃO FLUXOS DE DADOS
+  //? STREAMS SÃO FLUXOS DE DADOS - GERALMENTE UTILIZADOS COM O PACKAGE >> RXDART
   final value = await futureFunction();
   print(value);
 

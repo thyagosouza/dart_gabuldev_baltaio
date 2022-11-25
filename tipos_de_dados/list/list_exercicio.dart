@@ -13,4 +13,8 @@ void main() {
   //* TENDO A SOMA DE TUDOS OS NUMEROS FAZ A MEDIA
   double media = sum / numero.length;
   print(media);
+
+  double media2 =
+      numero.reduce((value, element) => value + element) / numero.length;
+  print('Média 2 $media2');
 }
